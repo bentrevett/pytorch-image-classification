@@ -1,12 +1,33 @@
-# IN PROGRESS
+# PyTorch Image Classification
 
-1. MLP MNIST - basic introduction to torchvision
-1. CNN (LeNet-5) http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf - introduction to cnns
-1. CNN (LeNet) CIFAR-10 - colour images! permutations! 
-1. AlexNet - https://arxiv.org/abs/1404.5997 / https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf\ - bigger networks! nn.sequential!
-1. VGG - https://arxiv.org/abs/1409.1556 - blocks! batch norm! weight initialization!
-1. ResNet - https://arxiv.org/abs/1512.03385 - more blocks! pre-training!
-1. ResNet part 2 - using own datasets! using pre-trained models!
-1. SqueezeNet - https://arxiv.org/abs/1602.07360
-1. DenseNet - https://arxiv.org/abs/1608.06993
-1. Inception - https://arxiv.org/abs/1409.4842 / https://arxiv.org/abs/1512.00567 / https://arxiv.org/abs/1602.07261
+This repo contains tutorials covering how to do sentiment analysis using [PyTorch](https://github.com/pytorch/pytorch) 1.4 and [TorchVision](https://github.com/pytorch/vision) 0.5 using Python 3.7.
+
+We'll start by implementing a multilayer perceptron (MLP) and then move on to architectures using convolutional neural networks (CNNs). Specifically, we'll implement [LeNet](), [AlexNet](), [VGG]() and [ResNet]()
+
+**If you find any mistakes or disagree with any of the explanations, please do not hesitate to [submit an issue](https://github.com/bentrevett/pytorch-image-classification/issues/new). I welcome any feedback, positive or negative!**
+
+## Getting Started
+
+To install PyTorch, see installation instructions on the [PyTorch website](pytorch.org).
+
+The instructions to install PyTorch should also detail how to install TorchVision but can also be installed via:
+
+``` bash
+pip install torchvision
+```
+
+## Tutorials
+
+* 1 - [Multilayer Perceptron](https://github.com/bentrevett/pytorch-image-classification/blob/master/1%20-%20MLP.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/bentrevett/pytorch-image-classification/blob/master/1%20-%20MLP.ipynb)
+
+    This tutorial provides an introduction to PyTorch and TorchVision. We'll learn how to: load datasets, augment data, define a multilayer perceptron (MLP), train a model, view the outputs of our model, visualize the model's representations, and view the weights of the model. 
+
+## References
+
+Here are some things I looked at while making these tutorials. Some of it may be out of date.
+
+- https://github.com/pytorch/tutorials
+- https://github.com/pytorch/examples
+- https://colah.github.io/posts/2014-10-Visualizing-MNIST/
+- https://distill.pub/2016/misread-tsne/
+- https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
