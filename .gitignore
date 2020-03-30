@@ -104,5 +104,6 @@ venv.bak/
 .mypy_cache/
 
 data/
+.data/
 models/
 *.pt
