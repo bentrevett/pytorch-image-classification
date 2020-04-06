@@ -25,7 +25,13 @@ pip install torchvision
 * 2 - [LeNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/2%20-%20LeNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/bentrevett/pytorch-image-classification/blob/master/2%20-%20LeNet.ipynb)
 
     In this tutorial we'll implement the classic [LeNet](http://yann.lecun.com/exdb/lenet/) architecture. We'll look into convolutional neural networks and how convolutional layers and subsampling layers work.
-    
+
+### TODO
+
+See `misc` folder for out of date implementations of the following:
+- AlexNet 
+- VGG
+- ResNet
 
 ## References
 
@@ -38,3 +44,4 @@ Here are some things I looked at while making these tutorials. Some of it may be
 - https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
 - https://github.com/activatedgeek/LeNet-5
 - https://github.com/ChawDoe/LeNet5-MNIST-PyTorch
+- https://github.com/kuangliu/pytorch-cifar
