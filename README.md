@@ -24,16 +24,19 @@ pip install torchvision
 
 * 2 - [LeNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/2%20-%20LeNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/bentrevett/pytorch-image-classification/blob/master/2%20-%20LeNet.ipynb)
 
-    In this tutorial we'll implement the classic [LeNet](http://yann.lecun.com/exdb/lenet/) architecture. We'll look into convolutional neural networks and how convolutional layers and subsampling layers work.
+    In this tutorial we'll implement the classic [LeNet](http://yann.lecun.com/exdb/lenet/) architecture. We'll look into convolutional neural networks and how convolutional layers and subsampling (aka pooling) layers work.
 
 * 3 - [AlexNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/3%20-%20AlexNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/bentrevett/pytorch-image-classification/blob/master/3%20-%20AlexNet.ipynb)
 
     In this tutorial we will implement [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), the convolutional neural network architecture that helped start the current interest in deep learning. We will move on to the CIFAR10 dataset - 32x32 color images in ten classes. We show: how to define architectures using `nn.Sequential`, how to initialize the parameters of your neural network, and how to use the learning rate finder to determine a good initial learning rate.
 
+* 4 - [VGG](https://github.com/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb)
+
+    This tutorial will cover implementing a variant of the [VGG](https://arxiv.org/pdf/1409.1556.pdf) model. However, instead of training the model from scratch we will instead load a VGG model pre-trained on the [ImageNet](http://www.image-net.org/challenges/LSVRC/) dataset and show how to perform transfer learning to adapt its weights to the CIFAR10 dataset using a technique called discriminative learning rates. We'll also explain how adaptive pooling layers and batch normalization works.
+
 ### TODO
 
 See `misc` folder for out of date implementations of the following:
-- VGG
 - ResNet
 
 ## References
