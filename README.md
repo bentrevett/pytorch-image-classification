@@ -2,7 +2,7 @@
 
 This repo contains tutorials covering how to do sentiment analysis using [PyTorch](https://github.com/pytorch/pytorch) 1.4 and [TorchVision](https://github.com/pytorch/vision) 0.5 using Python 3.7.
 
-We'll start by implementing a multilayer perceptron (MLP) and then move on to architectures using convolutional neural networks (CNNs). Specifically, we'll implement [LeNet](http://yann.lecun.com/exdb/lenet/), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [VGG](https://arxiv.org/pdf/1409.1556.pdf) and [ResNet](https://arxiv.org/pdf/1512.03385.pdf).
+We'll start by implementing a multilayer perceptron (MLP) and then move on to architectures using convolutional neural networks (CNNs). Specifically, we'll implement [LeNet](http://yann.lecun.com/exdb/lenet/), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [VGG](https://arxiv.org/abs/1409.1556) and [ResNet](https://arxiv.org/abs/1512.03385).
 
 **If you find any mistakes or disagree with any of the explanations, please do not hesitate to [submit an issue](https://github.com/bentrevett/pytorch-image-classification/issues/new). I welcome any feedback, positive or negative!**
 
@@ -32,12 +32,11 @@ pip install torchvision
 
 * 4 - [VGG](https://github.com/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb)
 
-    This tutorial will cover implementing a variant of the [VGG](https://arxiv.org/pdf/1409.1556.pdf) model. However, instead of training the model from scratch we will instead load a VGG model pre-trained on the [ImageNet](http://www.image-net.org/challenges/LSVRC/) dataset and show how to perform transfer learning to adapt its weights to the CIFAR10 dataset using a technique called discriminative learning rates. We'll also explain how adaptive pooling layers and batch normalization works.
+    This tutorial will cover implementing the [VGG](https://arxiv.org/abs/1409.1556) model. However, instead of training the model from scratch we will instead load a VGG model pre-trained on the [ImageNet](http://www.image-net.org/challenges/LSVRC/) dataset and show how to perform transfer learning to adapt its weights to the CIFAR10 dataset using a technique called discriminative learning rates. We'll also explain how adaptive pooling layers and batch normalization works.
 
-### TODO
+* 5 - [ResNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb)
 
-See `misc` folder for out of date implementations of the following:
-- ResNet
+    In this tutorial we will be implementing the [ResNet](https://arxiv.org/abs/1512.03385) model. We'll show how to load your own dataset, using the [Imagenette](https://github.com/fastai/imagenette) dataset - a small subset of ImageNet - as an example, and also how to use learning rate schedulers which dynamically alter the learning rate of your model whilst training. Specifially, we'll use the one cycle policy introduced in [this](https://arxiv.org/abs/1803.09820) paper and is now starting to be commonly used for training computer vision models.
 
 ## References
 
