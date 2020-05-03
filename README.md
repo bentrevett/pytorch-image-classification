@@ -36,7 +36,7 @@ pip install torchvision
 
 * 5 - [ResNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb)
 
-    In this tutorial we will be implementing the [ResNet](https://arxiv.org/abs/1512.03385) model. We'll show how to load your own dataset, using the [Imagenette](https://github.com/fastai/imagenette) dataset - a small subset of ImageNet - as an example, and also how to use learning rate schedulers which dynamically alter the learning rate of your model whilst training. Specifially, we'll use the one cycle policy introduced in [this](https://arxiv.org/abs/1803.09820) paper and is now starting to be commonly used for training computer vision models.
+    In this tutorial we will be implementing the [ResNet](https://arxiv.org/abs/1512.03385) model. We'll show how to load your own dataset, using the [CUB200](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset as an example, and also how to use learning rate schedulers which dynamically alter the learning rate of your model whilst training. Specifially, we'll use the one cycle policy introduced in [this](https://arxiv.org/abs/1803.09820) paper and is now starting to be commonly used for training computer vision models.
 
 ## References
 
