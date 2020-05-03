@@ -32,7 +32,7 @@ pip install torchvision
 
 * 4 - [VGG](https://github.com/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/4%20-%20VGG.ipynb)
 
-    This tutorial will cover implementing the [VGG](https://arxiv.org/abs/1409.1556) model. However, instead of training the model from scratch we will instead load a VGG model pre-trained on the [ImageNet](http://www.image-net.org/challenges/LSVRC/) dataset and show how to perform transfer learning to adapt its weights to the CIFAR10 dataset using a technique called discriminative learning rates. We'll also explain how adaptive pooling layers and batch normalization works.
+    This tutorial will cover implementing the [VGG](https://arxiv.org/abs/1409.1556) model. However, instead of training the model from scratch we will instead load a VGG model pre-trained on the [ImageNet](http://www.image-net.org/challenges/LSVRC/) dataset and show how to perform transfer learning to adapt its weights to the CIFAR10 dataset using a technique called discriminative fine-tuning. We'll also explain how adaptive pooling layers and batch normalization works.
 
 * 5 - [ResNet](https://github.com/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-image-classification/blob/master/5%20-%20ResNet.ipynb)
 
