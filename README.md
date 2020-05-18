@@ -50,3 +50,4 @@ Here are some things I looked at while making these tutorials. Some of it may be
 - https://github.com/activatedgeek/LeNet-5
 - https://github.com/ChawDoe/LeNet5-MNIST-PyTorch
 - https://github.com/kuangliu/pytorch-cifar
+- https://github.com/akamaster/pytorch_resnet_cifar10
