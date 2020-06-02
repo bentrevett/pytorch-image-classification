@@ -1,4 +1,4 @@
-# PyTorch Image Classification [In Progress]
+# PyTorch Image Classification
 
 This repo contains tutorials covering how to do sentiment analysis using [PyTorch](https://github.com/pytorch/pytorch) 1.4 and [TorchVision](https://github.com/pytorch/vision) 0.5 using Python 3.7.
 
@@ -51,3 +51,4 @@ Here are some things I looked at while making these tutorials. Some of it may be
 - https://github.com/ChawDoe/LeNet5-MNIST-PyTorch
 - https://github.com/kuangliu/pytorch-cifar
 - https://github.com/akamaster/pytorch_resnet_cifar10
+- https://sgugger.github.io/the-1cycle-policy.html
