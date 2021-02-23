@@ -1,6 +1,6 @@
 # PyTorch Image Classification
 
-This repo contains tutorials covering image classification using [PyTorch](https://github.com/pytorch/pytorch) 1.6 and [torchvision](https://github.com/pytorch/vision) 0.7, [matplotlib](https://matplotlib.org/) 3.3, [scikit-learn](https://scikit-learn.org/stable/index.html) 0.23 and Python 3.8.
+This repo contains tutorials covering image classification using [PyTorch](https://github.com/pytorch/pytorch) 1.7, [torchvision](https://github.com/pytorch/vision) 0.8, [matplotlib](https://matplotlib.org/) 3.3 and [scikit-learn](https://scikit-learn.org/stable/index.html) 0.24, with Python 3.8.
 
 We'll start by implementing a multilayer perceptron (MLP) and then move on to architectures using convolutional neural networks (CNNs). Specifically, we'll implement [LeNet](http://yann.lecun.com/exdb/lenet/), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [VGG](https://arxiv.org/abs/1409.1556) and [ResNet](https://arxiv.org/abs/1512.03385).
 
