@@ -107,3 +107,4 @@ data/
 .data/
 models/
 *.pt
+.vscode/
