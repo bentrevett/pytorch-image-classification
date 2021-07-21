@@ -1,6 +1,6 @@
 # PyTorch Image Classification
 
-This repo contains tutorials covering image classification using [PyTorch](https://github.com/pytorch/pytorch) 1.7, [torchvision](https://github.com/pytorch/vision) 0.8, [matplotlib](https://matplotlib.org/) 3.3 and [scikit-learn](https://scikit-learn.org/stable/index.html) 0.24, with Python 3.8.
+This repo contains tutorials covering image classification using [PyTorch](https://github.com/pytorch/pytorch) 1.9, [torchvision](https://github.com/pytorch/vision) 0.10, [matplotlib](https://matplotlib.org/) 3.2 and [scikit-learn](https://scikit-learn.org/stable/index.html) 0.22, with Python 3.7.
 
 We'll start by implementing a multilayer perceptron (MLP) and then move on to architectures using convolutional neural networks (CNNs). Specifically, we'll implement [LeNet](http://yann.lecun.com/exdb/lenet/), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [VGG](https://arxiv.org/abs/1409.1556) and [ResNet](https://arxiv.org/abs/1512.03385).
 
@@ -42,13 +42,13 @@ pip install torchvision
 
 Here are some things I looked at while making these tutorials. Some of it may be out of date.
 
-- https://github.com/pytorch/tutorials
-- https://github.com/pytorch/examples
-- https://colah.github.io/posts/2014-10-Visualizing-MNIST/
-- https://distill.pub/2016/misread-tsne/
-- https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
-- https://github.com/activatedgeek/LeNet-5
-- https://github.com/ChawDoe/LeNet5-MNIST-PyTorch
-- https://github.com/kuangliu/pytorch-cifar
-- https://github.com/akamaster/pytorch_resnet_cifar10
-- https://sgugger.github.io/the-1cycle-policy.html
+* https://github.com/pytorch/tutorials
+* https://github.com/pytorch/examples
+* https://colah.github.io/posts/2014-10-Visualizing-MNIST/
+* https://distill.pub/2016/misread-tsne/
+* https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
+* https://github.com/activatedgeek/LeNet-5
+* https://github.com/ChawDoe/LeNet5-MNIST-PyTorch
+* https://github.com/kuangliu/pytorch-cifar
+* https://github.com/akamaster/pytorch_resnet_cifar10
+* https://sgugger.github.io/the-1cycle-policy.html
