@@ -8,7 +8,7 @@ We'll start by implementing a multilayer perceptron (MLP) and then move on to ar
 
 ## Getting Started
 
-To install PyTorch, see installation instructions on the [PyTorch website](pytorch.org).
+To install PyTorch, see installation instructions on the [PyTorch website](https://pytorch.org/).
 
 The instructions to install PyTorch should also detail how to install torchvision but can also be installed via:
 
